@@ -7,10 +7,8 @@ import Project from "../../components/project";
 function Portfolio () {
     return(
         <div>
-            <Navbar/>
 
             <Project/>
-            <Footer/>
         </div>
     )
 }

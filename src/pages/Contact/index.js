@@ -1,12 +1,9 @@
 import React from "react";
-import Navbar from "../../components/navbar"
-import Footer from "../../components/footer"
 import "./style.css"
 
 function Contact() {
     return (
         <div>
-            <Navbar />
             <div className="container">
 
             <h1>Contact</h1>
@@ -33,7 +30,6 @@ function Contact() {
             </row>
             </div>
 
-                <Footer />
         </div>
     )
 }

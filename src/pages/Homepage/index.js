@@ -1,7 +1,5 @@
 import React from "react";
-import Navbar from "../../components/navbar"
 import Footer from "../../components/footer"
-import { Redirect } from "react-router-dom";
 import "./style.css"
 
 const secStyle = {
@@ -12,7 +10,6 @@ const secStyle = {
 function Homepage() {
     return (
         <div>
-            <Navbar />
             <div className="container" >
                 <section className="row">
 
@@ -53,7 +50,6 @@ function Homepage() {
                 </section>
             </div>
 
-            <Footer />
         </div>
     )
 }
